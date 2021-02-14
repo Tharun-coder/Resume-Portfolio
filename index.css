@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: whitesmoke;
+  height: 250px;
+  width: 60%;
+  margin: auto;
+}
+.photo {
+  background-color: gray;
+  height: 200px;
+}
+.candidatephoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 400px;
+  position: relative;
+  top: 20px;
+  left: 40%;
+  right: 40%;
+  border: 5px dotted #ffcc29;
+}
+.name {
+  background-color: #ffcc29;
+  padding: 10px 30px;
+  display: inline;
+  color: rgb(59, 53, 53);
+  position: absolute;
+  top: 170px;
+  left: 41%;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+.address {
+  position: relative;
+  text-align: center;
+  color: rgb(59, 53, 53);
+  background-color: white;
+  border-bottom: 2px solid lightgray;
+  width: 60%;
+  margin: auto;
+  height: 25px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.subbox {
+  background-color: gray;
+  height: 25px;
+  position: relative;
+  top: 10px;
+}
+.body {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  height: 1300px;
+  display: flex;
+}
+
+.body .section-left {
+  width: 2000px;
+  padding: 10px;
+  border-right: 1px solid gray;
+}
+
+.body .section-right {
+  width: 2000px;
+  padding: 10px;
+}
+
+.body .section-header i {
+  font-size: 20px;
+  border: 3px dotted #ffcc29;
+  border-radius: 55px;
+  color: #ffcc29;
+  background-color: rgb(75, 71, 71);
+}
+
+.body .section-header h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(104, 103, 103);
+}
+
+.body h4 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(104, 103, 103);
+  font-size: 18px;
+}
+
+.body .section-header {
+  display: inline-flex;
+  color: gray;
+}
+
+.body .section-body {
+  padding-left: 50px;
+  margin: 0px;
+  display: inline-flexbox;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+
+.body p {
+  text-align: justify;
+}
+
+.body .section-body ul li {
+  margin-left: 50px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.body .section-left .section-body {
+  margin-left: 10px;
+}
+
+.body .section-right .section-body {
+  margin-left: 10px;
+}
+
+.body .section-left .skills tr td {
+  width: 200px;
+  padding: 5px;
+}
+
+.body .section-left .skills .progress {
+  width: 250px;
+  margin: 0 5px;
+  height: 10px;
+  background: gray;
+  position: relative;
+  border: 1px;
+}
+
+.body .section-left .skills .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(to right, #ffcc29, #f3e0a1);
+}
+
+.body .profile,
+.skills {
+  margin-bottom: 10px;
+}
+
+.body .section-right .experience-right,
+.projects-handled {
+  margin-bottom: 40px;
+}
