@@ -6,7 +6,7 @@
 .header {
   background-color: whitesmoke;
   height: 250px;
-  width: 60%;
+  width: 70%;
   margin: auto;
 }
 .photo {
@@ -30,7 +30,7 @@
   color: rgb(59, 53, 53);
   position: absolute;
   top: 170px;
-  left: 41%;
+  left: 38%;
   border-radius: 10px;
   letter-spacing: 2px;
 }
@@ -40,7 +40,7 @@
   color: rgb(59, 53, 53);
   background-color: white;
   border-bottom: 2px solid lightgray;
-  width: 60%;
+  width: 70%;
   margin: auto;
   height: 25px;
   padding-top: 5px;
@@ -54,10 +54,10 @@
 }
 .body {
   position: relative;
-  width: 60%;
+  width: 70%;
   margin: auto;
   background-color: white;
-  height: 1300px;
+  height: 1600px;
   display: flex;
 }
 
@@ -74,7 +74,7 @@
 
 .body .section-header i {
   font-size: 20px;
-  border: 3px dotted #ffcc29;
+  border: 2px dotted #ffcc29;
   border-radius: 55px;
   color: #ffcc29;
   background-color: rgb(75, 71, 71);
